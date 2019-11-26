@@ -1,0 +1,438 @@
+
+*{
+    padding: 0;
+    margin-left: auto;
+    text-align:center;
+}
+
+
+body {
+    font-family: 'Jomolhari', serif;
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.container {
+    padding-top: 575px;
+    width: 750px;
+    height: 1000px;
+}
+
+.container .contentholder{
+
+    width: auto;
+    height: 1000px;
+    background-color: rgb(60, 60, 60);
+    background-repeat: no-repeat;
+    border: 5px solid black;
+}
+
+.container .contentholder .navBar{
+
+    position: relative;
+    background: #9d30ff;
+    width: auto;
+    height: 165px;
+    text-align: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+
+}
+
+.container .contentholder .navBar #icon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.container .contentholder .navBar #title{
+    font-family: 'Jomolhari', serif;
+    font-size: 90px;
+    line-height: 100px;
+    padding-top: 40px;
+    font-weight: lighter;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 3px 3px rgb(40, 40, 40);
+}
+
+.container .contentholder .navBar .closemenu{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+}
+
+.container .contentholder .holder{
+    position: relative;
+    width: auto;
+    height: 825px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container .contentholder .holder .intro{
+    font-family: 'Jomolhari', serif;
+    font-size: 50px;
+    line-height: 65px;
+    margin: 5px 0;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 3px 3px #000000;
+}
+
+.container .contentholder .holder #header{
+    font-family: 'Jomolhari', serif;
+    font-size: 50px;
+    line-height: 55px;
+    margin: 15px auto;
+    text-align: center;
+    color: #eff3fe;
+    text-shadow: 1px 3px 3px #000000;
+}
+
+.container .contentholder .holder .logo{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    bottom: 5px;
+    right: 5px;
+}
+
+.container .contentholder .holder #menu{
+    width: 100%;
+    height: 750px;
+    padding-top: 5px;
+}
+
+.container .contentholder .holder #menu .buttondiv button{
+
+    padding: 0;
+    color: white;
+    font-size: 45px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    height: 95px;
+    line-height: 95px;
+    display: block;
+    text-align: center;
+    background: transparent;
+    border: none;
+    font-family: 'Jomolhari', serif;
+
+}
+
+.container .contentholder .holder #menu .buttondiv .buttonname{
+
+    color: white;
+    text-align: center;
+    background: transparent;
+    font-family: 'Jomolhari', serif;
+
+}
+
+.container .contentholder .holder #menu .buttondiv .number{
+
+    float: left;
+    color: greenyellow;
+    padding-left: 8px;
+
+}
+
+.container .contentholder .holder #menu .buttondiv .price{
+
+    float: right;
+    color: green;
+    padding-right: 5px;
+
+}
+
+.container .contentholder .holder #menu .buttondiv .submit{
+
+    color: white;
+    padding: 0;
+    font-size: 55px;
+    background-color: #00c3ff;
+    text-decoration: none;
+    cursor: pointer;
+    width: 740px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    font-family: 'Jomolhari', serif;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+
+}
+
+
+.container .contentholder .holder #menu .buttondiv a{
+    text-align: center;
+    display: block;
+    width: 740px;
+    text-decoration: none;
+}
+
+
+.container .contentholder .holder #menu .buttondiv button:hover {
+    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+    color: black;
+    border: 1px solid black;
+}
+
+.container .contentholder .holder #menu button:focus {
+    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+    color: black;
+    border: 1px solid black;
+}
+
+.container .contentholder .holder #menu .buttondiv .Next:hover {
+    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+    color: white;
+    border: 1px solid black;
+}
+
+.container .contentholder .navBar .closemenu:hover {
+    cursor: pointer;
+    width: 85px;
+    height: 85px;
+}
+
+@media screen and (max-width: 1920px) {
+
+    .container {
+        padding-top: 275px;
+        width: 375px;
+        height: 500px;
+    }
+
+    .container .contentholder{
+
+        width: auto;
+        height: 500px;
+
+    }
+
+    .container .contentholder .navBar{
+
+        height: 70px;
+
+    }
+
+    .container .contentholder .navBar #icon{
+        top: 5px;
+        left: 5px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .container .contentholder .navBar #title{
+        font-family: 'Literata', serif;
+        font-size: 45px;
+        line-height: 50px;
+        padding-top: 10px;
+    }
+
+    .container .contentholder .navBar .closemenu{
+        width: 33px;
+        height: 33px;
+        top: 3px;
+        right: 3px;
+    }
+
+    .container .contentholder .holder{
+        height: 425px;
+    }
+
+    .container .contentholder .holder .intro{
+        font-size: 25px;
+        line-height: 30px;
+        margin: 5px auto;
+        text-align: center;
+    }
+
+    .container .contentholder .holder #menu{
+        width: 100%;
+        height: 380px;
+        padding-top: 5px;
+        margin: 0 auto;
+    }
+
+    .container .contentholder .holder #menu .buttondiv button{
+
+        font-size: 25px;
+        height: 45px;
+        line-height: 45px;
+
+    }
+
+    .container .contentholder .holder #menu .buttondiv .number{
+
+        padding-left: 5px;
+
+    }
+
+    .container .contentholder .holder #menu .buttondiv .submit{
+
+
+        font-size: 35px;
+        width: 365px;
+        height: 50px;
+        line-height: 50px;
+        padding-left: 0;
+        margin: 0;
+    }
+
+
+    .container .contentholder .holder #menu .buttondiv a{
+        width: 365px;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .container .contentholder .navBar .closemenu:hover {
+        cursor: pointer;
+        width: 37px;
+        height: 37px;
+    }
+
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    .container {
+        padding-top: 165px;
+        width: 250px;
+        height: 350px;
+    }
+
+    .container .contentholder{
+
+        width: auto;
+        height: 350px;
+        border: 3px solid black;
+    }
+
+    .container .contentholder .navBar{
+
+        height: 55px;
+        border-bottom: 3px solid black;
+    }
+
+    .container .contentholder .navBar #icon{
+        top: 3px;
+        left: 3px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .container .contentholder .navBar #title{
+        font-family: 'Literata', serif;
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 10px;
+    }
+
+    .container .contentholder .navBar .closemenu{
+        width: 25px;
+        height: 25px;
+        top: 3px;
+        right: 3px;
+    }
+
+    .container .contentholder .holder{
+        height: 290px;
+    }
+
+    .container .contentholder .holder .intro{
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 auto;
+    }
+
+    .container .contentholder .holder #menu{
+        width: 100%;
+        height: 190px;
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 10px;
+    }
+
+    .container .contentholder .holder #menu .buttondiv button{
+
+        font-size: 18px;
+        height: 30px;
+        line-height: 30px;
+
+    }
+
+    .container .contentholder .holder #menu .buttondiv .number{
+
+        padding-left: 5px;
+
+    }
+
+    .container .contentholder .holder #menu .buttondiv .price{
+
+        font-size: 13px;
+    }
+
+    .container .contentholder .holder #menu .buttondiv .submit{
+
+
+        font-size: 23px;
+        width: 244px;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 0;
+        margin: 0;
+    }
+
+
+    .container .contentholder .holder #menu .buttondiv a{
+        width: 244px;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .container .contentholder .navBar .closemenu:hover {
+        cursor: pointer;
+        width: 27px;
+        height: 27px;
+    }
+}
+
+
+@media screen and (max-height: 900px) and (min-height: 750px) {
+
+    .container {
+        padding-top: 20px;
+    }
+
+}
+
+
+@media screen and (max-height: 1600px) and (min-height: 1100px) {
+
+    .container {
+        padding-top: 20px;
+    }
+
+}
